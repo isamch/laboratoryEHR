@@ -1,15 +1,13 @@
 {
-  "name": "pharmacy-microservice",
+  "name": "laboratory-microservice",
   "version": "0.1.0",
-  "description": "Pharmacy Microservice with Asymmetric Auth",
+  "description": "Laboratory Microservice with Asymmetric Auth",
   "private": true,
   "main": "server.js",
   "type": "module",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node server.js",
-    "setup": "node setup.js",
-    "seed": "node src/scripts/seedData.js"
+    "start": "node server.js"
   },
   "author": "isam chajia",
   "dependencies": {

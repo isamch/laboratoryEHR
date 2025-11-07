@@ -1,13 +1,11 @@
 import express from 'express';
-import authRoutes from './api/auth.routes.js';
-import simpleRoutes from './api/simple.routes.js';
+import labRoutes from '../routes/api/lab.routes.js';
+
 
 const router = express.Router();
 
-// Authentication routes
-router.use('/auth', authRoutes);
 
-// Simple MVP routes (No authentication required)
-router.use('/', simpleRoutes);
+router.use('/laboratory', labRoutes)
+
 
 export default router;
